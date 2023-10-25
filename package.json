@@ -1,0 +1,13 @@
+{
+    "name": "hetzner_server_test",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^16"
+    },
+    "dependencies": {
+        "@pulumi/hcloud": "^1.16.1",
+        "@pulumi/pulumi": "^3.0.0",
+        "@pulumi/tls": "^4.11.0",
+        "dotenv": "^16.3.1"
+    }
+}
